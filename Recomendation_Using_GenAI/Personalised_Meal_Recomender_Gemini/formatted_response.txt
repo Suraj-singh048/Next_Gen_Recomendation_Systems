@@ -1,0 +1,522 @@
+{
+  "weekly_meal_plan": {
+    "monday": {
+      "breakfast": {
+        "name": "Oatmeal with Berries and Nuts",
+        "description": "A bowl of steel-cut oats cooked with water or unsweetened almond milk, topped with a mix of fresh or frozen berries (blueberries, strawberries, raspberries) and a sprinkle of chopped walnuts or almonds.",
+        "nutrient_content_per_100": {
+          "calories": 150,
+          "protein": 5,
+          "carbohydrates": 25,
+          "fiber": 5,
+          "fat": 5,
+          "sugar": 10
+        },
+        "alternative": {
+          "name": "Egg White Omelette with Spinach and Tomatoes",
+          "description": "A fluffy omelette made with 2-3 egg whites, filled with sautéed spinach and chopped tomatoes. Seasoned with salt, pepper, and a sprinkle of herbs.",
+          "nutrient_content_per_100": {
+            "calories": 100,
+            "protein": 15,
+            "carbohydrates": 5,
+            "fiber": 2,
+            "fat": 3,
+            "sugar": 1
+          }
+        }
+      },
+      "lunch": {
+        "name": "Caprese Salad with Grilled Chicken",
+        "description": "A refreshing salad with sliced fresh mozzarella, ripe tomatoes, and basil leaves. Grilled chicken breast is added for protein. Drizzled with a light balsamic vinaigrette.",
+        "nutrient_content_per_100": {
+          "calories": 180,
+          "protein": 20,
+          "carbohydrates": 10,
+          "fiber": 3,
+          "fat": 8,
+          "sugar": 5
+        },
+        "alternative": {
+          "name": "Lentil Soup with Whole Wheat Bread",
+          "description": "A hearty lentil soup made with vegetable broth, carrots, celery, onions, and lentils. Served with a slice of whole wheat bread.",
+          "nutrient_content_per_100": {
+            "calories": 120,
+            "protein": 10,
+            "carbohydrates": 20,
+            "fiber": 8,
+            "fat": 2,
+            "sugar": 2
+          }
+        }
+      },
+      "dinner": {
+        "name": "Baked Salmon with Roasted Vegetables",
+        "description": "Baked salmon fillet seasoned with herbs and lemon juice. Served with roasted vegetables like broccoli, asparagus, and bell peppers.",
+        "nutrient_content_per_100": {
+          "calories": 200,
+          "protein": 25,
+          "carbohydrates": 10,
+          "fiber": 5,
+          "fat": 8,
+          "sugar": 2
+        },
+        "alternative": {
+          "name": "Chicken and Vegetable Stir-Fry",
+          "description": "A stir-fry with chicken breast, broccoli, carrots, snap peas, and onions. Cooked in a light soy sauce and ginger sauce.",
+          "nutrient_content_per_100": {
+            "calories": 150,
+            "protein": 15,
+            "carbohydrates": 15,
+            "fiber": 4,
+            "fat": 5,
+            "sugar": 3
+          }
+        }
+      }
+    },
+    "tuesday": {
+      "breakfast": {
+        "name": "Greek Yogurt with Berries and Granola",
+        "description": "A serving of plain Greek yogurt topped with a mix of fresh or frozen berries and a sprinkle of granola.",
+        "nutrient_content_per_100": {
+          "calories": 130,
+          "protein": 10,
+          "carbohydrates": 15,
+          "fiber": 3,
+          "fat": 5,
+          "sugar": 8
+        },
+        "alternative": {
+          "name": "Whole Wheat Toast with Avocado and Egg",
+          "description": "A slice of whole wheat toast topped with mashed avocado and a poached or fried egg.",
+          "nutrient_content_per_100": {
+            "calories": 180,
+            "protein": 12,
+            "carbohydrates": 20,
+            "fiber": 5,
+            "fat": 8,
+            "sugar": 2
+          }
+        }
+      },
+      "lunch": {
+        "name": "Tuna Salad Sandwich on Whole Wheat Bread",
+        "description": "A sandwich made with tuna salad (tuna, mayonnaise, celery, onion) on whole wheat bread. Served with a side of cucumber slices.",
+        "nutrient_content_per_100": {
+          "calories": 200,
+          "protein": 15,
+          "carbohydrates": 25,
+          "fiber": 5,
+          "fat": 8,
+          "sugar": 3
+        },
+        "alternative": {
+          "name": "Quinoa Salad with Grilled Vegetables",
+          "description": "A salad with cooked quinoa, grilled bell peppers, zucchini, and onions. Tossed with a light vinaigrette.",
+          "nutrient_content_per_100": {
+            "calories": 150,
+            "protein": 5,
+            "carbohydrates": 25,
+            "fiber": 5,
+            "fat": 3,
+            "sugar": 2
+          }
+        }
+      },
+      "dinner": {
+        "name": "Spaghetti Squash with Marinara Sauce and Meatballs",
+        "description": "Spaghetti squash cooked and served with a light marinara sauce and lean ground turkey meatballs.",
+        "nutrient_content_per_100": {
+          "calories": 220,
+          "protein": 20,
+          "carbohydrates": 25,
+          "fiber": 5,
+          "fat": 8,
+          "sugar": 5
+        },
+        "alternative": {
+          "name": "Chicken Parmesan with Zucchini Noodles",
+          "description": "Chicken breast breaded and baked with marinara sauce and mozzarella cheese. Served over zucchini noodles.",
+          "nutrient_content_per_100": {
+            "calories": 200,
+            "protein": 22,
+            "carbohydrates": 15,
+            "fiber": 4,
+            "fat": 7,
+            "sugar": 3
+          }
+        }
+      }
+    },
+    "wednesday": {
+      "breakfast": {
+        "name": "Scrambled Eggs with Whole Wheat Toast",
+        "description": "Scrambled eggs cooked with a little milk or water. Served with a slice of whole wheat toast.",
+        "nutrient_content_per_100": {
+          "calories": 150,
+          "protein": 15,
+          "carbohydrates": 15,
+          "fiber": 2,
+          "fat": 5,
+          "sugar": 1
+        },
+        "alternative": {
+          "name": "Smoothie with Protein Powder and Fruit",
+          "description": "A smoothie made with unsweetened almond milk, frozen fruit (berries, bananas), spinach, and a scoop of protein powder.",
+          "nutrient_content_per_100": {
+            "calories": 120,
+            "protein": 10,
+            "carbohydrates": 15,
+            "fiber": 3,
+            "fat": 3,
+            "sugar": 8
+          }
+        }
+      },
+      "lunch": {
+        "name": "Chicken Caesar Salad",
+        "description": "A salad with romaine lettuce, grilled chicken breast, parmesan cheese, and croutons. Tossed with a light Caesar dressing.",
+        "nutrient_content_per_100": {
+          "calories": 200,
+          "protein": 20,
+          "carbohydrates": 10,
+          "fiber": 3,
+          "fat": 8,
+          "sugar": 2
+        },
+        "alternative": {
+          "name": "Leftover Spaghetti Squash with Marinara Sauce and Meatballs",
+          "description": "Enjoy the leftovers from Tuesday's dinner.",
+          "nutrient_content_per_100": {
+            "calories": 220,
+            "protein": 20,
+            "carbohydrates": 25,
+            "fiber": 5,
+            "fat": 8,
+            "sugar": 5
+          }
+        }
+      },
+      "dinner": {
+        "name": "Shrimp Scampi with Zucchini Noodles",
+        "description": "Shrimp sautéed in garlic, white wine, and lemon juice. Served over zucchini noodles.",
+        "nutrient_content_per_100": {
+          "calories": 180,
+          "protein": 20,
+          "carbohydrates": 10,
+          "fiber": 3,
+          "fat": 5,
+          "sugar": 2
+        },
+        "alternative": {
+          "name": "Baked Chicken with Roasted Vegetables",
+          "description": "Baked chicken breast seasoned with herbs and spices. Served with roasted vegetables like broccoli, carrots, and onions.",
+          "nutrient_content_per_100": {
+            "calories": 160,
+            "protein": 22,
+            "carbohydrates": 12,
+            "fiber": 4,
+            "fat": 5,
+            "sugar": 2
+          }
+        }
+      }
+    },
+    "thursday": {
+      "breakfast": {
+        "name": "Whole Wheat Pancakes with Berries and Syrup",
+        "description": "Whole wheat pancakes made with a little bit of sugar and served with fresh or frozen berries and a small amount of sugar-free syrup.",
+        "nutrient_content_per_100": {
+          "calories": 180,
+          "protein": 5,
+          "carbohydrates": 30,
+          "fiber": 3,
+          "fat": 5,
+          "sugar": 10
+        },
+        "alternative": {
+          "name": "Cottage Cheese with Fruit and Nuts",
+          "description": "A serving of cottage cheese topped with chopped fruit (apple, pear, or berries) and a sprinkle of chopped nuts.",
+          "nutrient_content_per_100": {
+            "calories": 100,
+            "protein": 15,
+            "carbohydrates": 5,
+            "fiber": 2,
+            "fat": 3,
+            "sugar": 2
+          }
+        }
+      },
+      "lunch": {
+        "name": "Caprese Salad with Grilled Chicken",
+        "description": "A refreshing salad with sliced fresh mozzarella, ripe tomatoes, and basil leaves. Grilled chicken breast is added for protein. Drizzled with a light balsamic vinaigrette.",
+        "nutrient_content_per_100": {
+          "calories": 180,
+          "protein": 20,
+          "carbohydrates": 10,
+          "fiber": 3,
+          "fat": 8,
+          "sugar": 5
+        },
+        "alternative": {
+          "name": "Tuna Salad Sandwich on Whole Wheat Bread",
+          "description": "A sandwich made with tuna salad (tuna, mayonnaise, celery, onion) on whole wheat bread. Served with a side of cucumber slices.",
+          "nutrient_content_per_100": {
+            "calories": 200,
+            "protein": 15,
+            "carbohydrates": 25,
+            "fiber": 5,
+            "fat": 8,
+            "sugar": 3
+          }
+        }
+      },
+      "dinner": {
+        "name": "Chicken Piccata with Roasted Asparagus",
+        "description": "Chicken breast sautéed in a lemon-butter sauce with capers. Served with roasted asparagus.",
+        "nutrient_content_per_100": {
+          "calories": 180,
+          "protein": 25,
+          "carbohydrates": 5,
+          "fiber": 2,
+          "fat": 5,
+          "sugar": 2
+        },
+        "alternative": {
+          "name": "Salmon with Lemon and Dill",
+          "description": "Baked salmon fillet seasoned with lemon juice and fresh dill. Served with a side of steamed green beans.",
+          "nutrient_content_per_100": {
+            "calories": 180,
+            "protein": 20,
+            "carbohydrates": 5,
+            "fiber": 2,
+            "fat": 8,
+            "sugar": 1
+          }
+        }
+      }
+    },
+    "friday": {
+      "breakfast": {
+        "name": "Greek Yogurt with Berries and Granola",
+        "description": "A serving of plain Greek yogurt topped with a mix of fresh or frozen berries and a sprinkle of granola.",
+        "nutrient_content_per_100": {
+          "calories": 130,
+          "protein": 10,
+          "carbohydrates": 15,
+          "fiber": 3,
+          "fat": 5,
+          "sugar": 8
+        },
+        "alternative": {
+          "name": "Whole Wheat Toast with Avocado and Egg",
+          "description": "A slice of whole wheat toast topped with mashed avocado and a poached or fried egg.",
+          "nutrient_content_per_100": {
+            "calories": 180,
+            "protein": 12,
+            "carbohydrates": 20,
+            "fiber": 5,
+            "fat": 8,
+            "sugar": 2
+          }
+        }
+      },
+      "lunch": {
+        "name": "Lentil Soup with Whole Wheat Bread",
+        "description": "A hearty lentil soup made with vegetable broth, carrots, celery, onions, and lentils. Served with a slice of whole wheat bread.",
+        "nutrient_content_per_100": {
+          "calories": 120,
+          "protein": 10,
+          "carbohydrates": 20,
+          "fiber": 8,
+          "fat": 2,
+          "sugar": 2
+        },
+        "alternative": {
+          "name": "Quinoa Salad with Grilled Vegetables",
+          "description": "A salad with cooked quinoa, grilled bell peppers, zucchini, and onions. Tossed with a light vinaigrette.",
+          "nutrient_content_per_100": {
+            "calories": 150,
+            "protein": 5,
+            "carbohydrates": 25,
+            "fiber": 5,
+            "fat": 3,
+            "sugar": 2
+          }
+        }
+      },
+      "dinner": {
+        "name": "Chicken and Vegetable Stir-Fry",
+        "description": "A stir-fry with chicken breast, broccoli, carrots, snap peas, and onions. Cooked in a light soy sauce and ginger sauce.",
+        "nutrient_content_per_100": {
+          "calories": 150,
+          "protein": 15,
+          "carbohydrates": 15,
+          "fiber": 4,
+          "fat": 5,
+          "sugar": 3
+        },
+        "alternative": {
+          "name": "Shrimp Scampi with Zucchini Noodles",
+          "description": "Shrimp sautéed in garlic, white wine, and lemon juice. Served over zucchini noodles.",
+          "nutrient_content_per_100": {
+            "calories": 180,
+            "protein": 20,
+            "carbohydrates": 10,
+            "fiber": 3,
+            "fat": 5,
+            "sugar": 2
+          }
+        }
+      }
+    },
+    "saturday": {
+      "breakfast": {
+        "name": "Scrambled Eggs with Whole Wheat Toast",
+        "description": "Scrambled eggs cooked with a little milk or water. Served with a slice of whole wheat toast.",
+        "nutrient_content_per_100": {
+          "calories": 150,
+          "protein": 15,
+          "carbohydrates": 15,
+          "fiber": 2,
+          "fat": 5,
+          "sugar": 1
+        },
+        "alternative": {
+          "name": "Smoothie with Protein Powder and Fruit",
+          "description": "A smoothie made with unsweetened almond milk, frozen fruit (berries, bananas), spinach, and a scoop of protein powder.",
+          "nutrient_content_per_100": {
+            "calories": 120,
+            "protein": 10,
+            "carbohydrates": 15,
+            "fiber": 3,
+            "fat": 3,
+            "sugar": 8
+          }
+        }
+      },
+      "lunch": {
+        "name": "Chicken Caesar Salad",
+        "description": "A salad with romaine lettuce, grilled chicken breast, parmesan cheese, and croutons. Tossed with a light Caesar dressing.",
+        "nutrient_content_per_100": {
+          "calories": 200,
+          "protein": 20,
+          "carbohydrates": 10,
+          "fiber": 3,
+          "fat": 8,
+          "sugar": 2
+        },
+        "alternative": {
+          "name": "Leftover Chicken Piccata with Roasted Asparagus",
+          "description": "Enjoy the leftovers from Thursday's dinner.",
+          "nutrient_content_per_100": {
+            "calories": 180,
+            "protein": 25,
+            "carbohydrates": 5,
+            "fiber": 2,
+            "fat": 5,
+            "sugar": 2
+          }
+        }
+      },
+      "dinner": {
+        "name": "Baked Salmon with Roasted Vegetables",
+        "description": "Baked salmon fillet seasoned with herbs and lemon juice. Served with roasted vegetables like broccoli, asparagus, and bell peppers.",
+        "nutrient_content_per_100": {
+          "calories": 200,
+          "protein": 25,
+          "carbohydrates": 10,
+          "fiber": 5,
+          "fat": 8,
+          "sugar": 2
+        },
+        "alternative": {
+          "name": "Chicken and Vegetable Stir-Fry",
+          "description": "A stir-fry with chicken breast, broccoli, carrots, snap peas, and onions. Cooked in a light soy sauce and ginger sauce.",
+          "nutrient_content_per_100": {
+            "calories": 150,
+            "protein": 15,
+            "carbohydrates": 15,
+            "fiber": 4,
+            "fat": 5,
+            "sugar": 3
+          }
+        }
+      }
+    },
+    "sunday": {
+      "breakfast": {
+        "name": "Oatmeal with Berries and Nuts",
+        "description": "A bowl of steel-cut oats cooked with water or unsweetened almond milk, topped with a mix of fresh or frozen berries (blueberries, strawberries, raspberries) and a sprinkle of chopped walnuts or almonds.",
+        "nutrient_content_per_100": {
+          "calories": 150,
+          "protein": 5,
+          "carbohydrates": 25,
+          "fiber": 5,
+          "fat": 5,
+          "sugar": 10
+        },
+        "alternative": {
+          "name": "Egg White Omelette with Spinach and Tomatoes",
+          "description": "A fluffy omelette made with 2-3 egg whites, filled with sautéed spinach and chopped tomatoes. Seasoned with salt, pepper, and a sprinkle of herbs.",
+          "nutrient_content_per_100": {
+            "calories": 100,
+            "protein": 15,
+            "carbohydrates": 5,
+            "fiber": 2,
+            "fat": 3,
+            "sugar": 1
+          }
+        }
+      },
+      "lunch": {
+        "name": "Tuna Salad Sandwich on Whole Wheat Bread",
+        "description": "A sandwich made with tuna salad (tuna, mayonnaise, celery, onion) on whole wheat bread. Served with a side of cucumber slices.",
+        "nutrient_content_per_100": {
+          "calories": 200,
+          "protein": 15,
+          "carbohydrates": 25,
+          "fiber": 5,
+          "fat": 8,
+          "sugar": 3
+        },
+        "alternative": {
+          "name": "Quinoa Salad with Grilled Vegetables",
+          "description": "A salad with cooked quinoa, grilled bell peppers, zucchini, and onions. Tossed with a light vinaigrette.",
+          "nutrient_content_per_100": {
+            "calories": 150,
+            "protein": 5,
+            "carbohydrates": 25,
+            "fiber": 5,
+            "fat": 3,
+            "sugar": 2
+          }
+        }
+      },
+      "dinner": {
+        "name": "Spaghetti Squash with Marinara Sauce and Meatballs",
+        "description": "Spaghetti squash cooked and served with a light marinara sauce and lean ground turkey meatballs.",
+        "nutrient_content_per_100": {
+          "calories": 220,
+          "protein": 20,
+          "carbohydrates": 25,
+          "fiber": 5,
+          "fat": 8,
+          "sugar": 5
+        },
+        "alternative": {
+          "name": "Chicken Parmesan with Zucchini Noodles",
+          "description": "Chicken breast breaded and baked with marinara sauce and mozzarella cheese. Served over zucchini noodles.",
+          "nutrient_content_per_100": {
+            "calories": 200,
+            "protein": 22,
+            "carbohydrates": 15,
+            "fiber": 4,
+            "fat": 7,
+            "sugar": 3
+          }
+        }
+      }
+    }
+  }
+}

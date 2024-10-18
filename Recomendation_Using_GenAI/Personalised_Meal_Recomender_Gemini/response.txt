@@ -1,0 +1,482 @@
+```json
+{
+  "week_plan": {
+    "Monday": {
+      "breakfast": {
+        "name": "Oatmeal with Berries and Nuts",
+        "description": "1/2 cup rolled oats cooked with 1 cup water, topped with 1/4 cup mixed berries and 1/8 cup chopped walnuts.",
+        "nutrient_content": {
+          "calories": 180,
+          "protein": 5g,
+          "carbs": 35g,
+          "fiber": 6g,
+          "fat": 6g
+        },
+        "alternative": {
+          "name": "Scrambled Eggs with Spinach and Tomato",
+          "description": "2 eggs scrambled with 1/2 cup chopped spinach and 1/4 cup chopped tomato.",
+          "nutrient_content": {
+            "calories": 150,
+            "protein": 12g,
+            "carbs": 3g,
+            "fiber": 1g,
+            "fat": 8g
+          }
+        }
+      },
+      "lunch": {
+        "name": "Caprese Salad with Grilled Chicken",
+        "description": "Mixed greens with 1/2 cup sliced mozzarella, 1/4 cup sliced tomatoes, 1/4 cup basil leaves, 4 oz grilled chicken breast, and a light vinaigrette dressing.",
+        "nutrient_content": {
+          "calories": 350,
+          "protein": 30g,
+          "carbs": 15g,
+          "fiber": 5g,
+          "fat": 15g
+        },
+        "alternative": {
+          "name": "Tuna Salad Sandwich on Whole Wheat Bread",
+          "description": "2 oz canned tuna mixed with 1/4 cup chopped celery, 1/4 cup chopped onion, and 1 tbsp light mayonnaise on 2 slices whole wheat bread.",
+          "nutrient_content": {
+            "calories": 300,
+            "protein": 25g,
+            "carbs": 35g,
+            "fiber": 5g,
+            "fat": 10g
+          }
+        }
+      },
+      "dinner": {
+        "name": "Chicken and Vegetable Stir-Fry with Brown Rice",
+        "description": "1 cup brown rice cooked, 4 oz chicken breast stir-fried with 1 cup broccoli florets, 1/2 cup sliced carrots, 1/4 cup chopped onion, and 1 tbsp soy sauce.",
+        "nutrient_content": {
+          "calories": 450,
+          "protein": 35g,
+          "carbs": 50g,
+          "fiber": 10g,
+          "fat": 10g
+        },
+        "alternative": {
+          "name": "Spaghetti Squash with Marinara Sauce and Meatballs",
+          "description": "1 cup cooked spaghetti squash, 1/2 cup marinara sauce, 2 small lean meatballs.",
+          "nutrient_content": {
+            "calories": 350,
+            "protein": 25g,
+            "carbs": 40g,
+            "fiber": 8g,
+            "fat": 10g
+          }
+        }
+      }
+    },
+    "Tuesday": {
+      "breakfast": {
+        "name": "Greek Yogurt with Fruit and Granola",
+        "description": "1 cup Greek yogurt, 1/4 cup mixed berries, 1/4 cup granola.",
+        "nutrient_content": {
+          "calories": 250,
+          "protein": 20g,
+          "carbs": 30g,
+          "fiber": 5g,
+          "fat": 8g
+        },
+        "alternative": {
+          "name": "Whole Wheat Toast with Avocado and Egg",
+          "description": "2 slices whole wheat toast, 1/4 avocado mashed, 1 egg cooked to preference.",
+          "nutrient_content": {
+            "calories": 280,
+            "protein": 15g,
+            "carbs": 35g,
+            "fiber": 6g,
+            "fat": 12g
+          }
+        }
+      },
+      "lunch": {
+        "name": "Lentil Soup with Whole Wheat Bread",
+        "description": "1 cup lentil soup, 2 slices whole wheat bread.",
+        "nutrient_content": {
+          "calories": 300,
+          "protein": 20g,
+          "carbs": 45g,
+          "fiber": 12g,
+          "fat": 5g
+        },
+        "alternative": {
+          "name": "Quinoa Salad with Roasted Vegetables",
+          "description": "1 cup cooked quinoa, 1/2 cup roasted vegetables (broccoli, carrots, peppers), 1/4 cup feta cheese.",
+          "nutrient_content": {
+            "calories": 350,
+            "protein": 15g,
+            "carbs": 50g,
+            "fiber": 8g,
+            "fat": 10g
+          }
+        }
+      },
+      "dinner": {
+        "name": "Baked Salmon with Roasted Asparagus and Lemon",
+        "description": "4 oz baked salmon, 1/2 cup roasted asparagus, 1/4 lemon.",
+        "nutrient_content": {
+          "calories": 300,
+          "protein": 30g,
+          "carbs": 5g,
+          "fiber": 3g,
+          "fat": 15g
+        },
+        "alternative": {
+          "name": "Chicken Parmesan with Zucchini Noodles",
+          "description": "4 oz chicken breast breaded and baked, 1/4 cup marinara sauce, 1/4 cup mozzarella cheese, 1 cup zucchini noodles.",
+          "nutrient_content": {
+            "calories": 350,
+            "protein": 30g,
+            "carbs": 25g,
+            "fiber": 5g,
+            "fat": 12g
+          }
+        }
+      }
+    },
+    "Wednesday": {
+      "breakfast": {
+        "name": "Whole Wheat Pancakes with Berries and Syrup",
+        "description": "2 whole wheat pancakes, 1/4 cup mixed berries, 1 tbsp sugar-free syrup.",
+        "nutrient_content": {
+          "calories": 200,
+          "protein": 10g,
+          "carbs": 30g,
+          "fiber": 4g,
+          "fat": 5g
+        },
+        "alternative": {
+          "name": "Smoothie with Spinach, Banana, and Protein Powder",
+          "description": "1 cup spinach, 1 banana, 1 scoop protein powder, 1/2 cup almond milk.",
+          "nutrient_content": {
+            "calories": 250,
+            "protein": 25g,
+            "carbs": 35g,
+            "fiber": 6g,
+            "fat": 5g
+          }
+        }
+      },
+      "lunch": {
+        "name": "Chicken Caesar Salad",
+        "description": "Mixed greens, 4 oz grilled chicken breast, 1/4 cup grated Parmesan cheese, 2 tbsp Caesar dressing.",
+        "nutrient_content": {
+          "calories": 350,
+          "protein": 30g,
+          "carbs": 10g,
+          "fiber": 3g,
+          "fat": 15g
+        },
+        "alternative": {
+          "name": "Turkey and Veggie Wrap",
+          "description": "Whole wheat tortilla, 4 oz turkey breast, 1/4 cup chopped vegetables (lettuce, tomato, cucumber), 1 tbsp hummus.",
+          "nutrient_content": {
+            "calories": 300,
+            "protein": 25g,
+            "carbs": 35g,
+            "fiber": 5g,
+            "fat": 8g
+          }
+        }
+      },
+      "dinner": {
+        "name": "Pasta Primavera with Shrimp",
+        "description": "1 cup whole wheat pasta, 1/2 cup mixed vegetables (broccoli, carrots, zucchini), 4 oz shrimp, 1/4 cup light marinara sauce.",
+        "nutrient_content": {
+          "calories": 400,
+          "protein": 30g,
+          "carbs": 50g,
+          "fiber": 8g,
+          "fat": 10g
+        },
+        "alternative": {
+          "name": "Chicken Piccata with Roasted Vegetables",
+          "description": "4 oz chicken breast cooked in lemon sauce, 1/2 cup roasted vegetables (broccoli, carrots, peppers).",
+          "nutrient_content": {
+            "calories": 350,
+            "protein": 30g,
+            "carbs": 10g,
+            "fiber": 5g,
+            "fat": 10g
+          }
+        }
+      }
+    },
+    "Thursday": {
+      "breakfast": {
+        "name": "Egg White Omelet with Vegetables",
+        "description": "2 egg whites cooked with 1/4 cup chopped vegetables (onions, peppers, mushrooms).",
+        "nutrient_content": {
+          "calories": 150,
+          "protein": 15g,
+          "carbs": 5g,
+          "fiber": 2g,
+          "fat": 5g
+        },
+        "alternative": {
+          "name": "Cottage Cheese with Berries and Nuts",
+          "description": "1 cup cottage cheese, 1/4 cup mixed berries, 1/8 cup chopped walnuts.",
+          "nutrient_content": {
+            "calories": 200,
+            "protein": 25g,
+            "carbs": 15g,
+            "fiber": 3g,
+            "fat": 5g
+          }
+        }
+      },
+      "lunch": {
+        "name": "Tuna Salad with Whole Wheat Crackers",
+        "description": "2 oz canned tuna mixed with 1/4 cup chopped celery, 1/4 cup chopped onion, and 1 tbsp light mayonnaise served with 10 whole wheat crackers.",
+        "nutrient_content": {
+          "calories": 250,
+          "protein": 20g,
+          "carbs": 20g,
+          "fiber": 4g,
+          "fat": 8g
+        },
+        "alternative": {
+          "name": "Black Bean Salad with Avocado",
+          "description": "1 cup black beans, 1/4 cup chopped red onion, 1/4 cup chopped cilantro, 1/4 avocado, 1 tbsp lime juice.",
+          "nutrient_content": {
+            "calories": 280,
+            "protein": 15g,
+            "carbs": 35g,
+            "fiber": 10g,
+            "fat": 10g
+          }
+        }
+      },
+      "dinner": {
+        "name": "Lasagna with Meat Sauce",
+        "description": "1 serving of lasagna with lean ground beef meat sauce.",
+        "nutrient_content": {
+          "calories": 400,
+          "protein": 25g,
+          "carbs": 50g,
+          "fiber": 6g,
+          "fat": 15g
+        },
+        "alternative": {
+          "name": "Chicken and Broccoli Pasta Bake",
+          "description": "1 cup cooked whole wheat pasta, 4 oz chicken breast, 1/2 cup broccoli florets, 1/4 cup marinara sauce, 1/4 cup mozzarella cheese.",
+          "nutrient_content": {
+            "calories": 350,
+            "protein": 25g,
+            "carbs": 40g,
+            "fiber": 6g,
+            "fat": 10g
+          }
+        }
+      }
+    },
+    "Friday": {
+      "breakfast": {
+        "name": "Breakfast Burrito with Eggs and Vegetables",
+        "description": "Whole wheat tortilla, 2 eggs scrambled with 1/4 cup chopped vegetables (onions, peppers, mushrooms), 1/4 cup salsa.",
+        "nutrient_content": {
+          "calories": 250,
+          "protein": 18g,
+          "carbs": 30g,
+          "fiber": 4g,
+          "fat": 8g
+        },
+        "alternative": {
+          "name": "French Toast with Berries and Syrup",
+          "description": "2 slices whole wheat bread, 1 egg, 1/4 cup milk, 1/4 cup mixed berries, 1 tbsp sugar-free syrup.",
+          "nutrient_content": {
+            "calories": 280,
+            "protein": 12g,
+            "carbs": 40g,
+            "fiber": 4g,
+            "fat": 8g
+          }
+        }
+      },
+      "lunch": {
+        "name": "Caprese Salad with Grilled Chicken",
+        "description": "Mixed greens with 1/2 cup sliced mozzarella, 1/4 cup sliced tomatoes, 1/4 cup basil leaves, 4 oz grilled chicken breast, and a light vinaigrette dressing.",
+        "nutrient_content": {
+          "calories": 350,
+          "protein": 30g,
+          "carbs": 15g,
+          "fiber": 5g,
+          "fat": 15g
+        },
+        "alternative": {
+          "name": "Tuna Salad Sandwich on Whole Wheat Bread",
+          "description": "2 oz canned tuna mixed with 1/4 cup chopped celery, 1/4 cup chopped onion, and 1 tbsp light mayonnaise on 2 slices whole wheat bread.",
+          "nutrient_content": {
+            "calories": 300,
+            "protein": 25g,
+            "carbs": 35g,
+            "fiber": 5g,
+            "fat": 10g
+          }
+        }
+      },
+      "dinner": {
+        "name": "Pizza with Vegetables and Lean Protein",
+        "description": "1 serving of thin crust pizza with 1/2 cup vegetables (onions, peppers, mushrooms) and 4 oz lean protein (chicken, turkey, or shrimp).",
+        "nutrient_content": {
+          "calories": 450,
+          "protein": 30g,
+          "carbs": 55g,
+          "fiber": 8g,
+          "fat": 15g
+        },
+        "alternative": {
+          "name": "Spaghetti with Meatballs and Marinara Sauce",
+          "description": "1 cup cooked whole wheat spaghetti, 2 lean meatballs, 1/2 cup marinara sauce.",
+          "nutrient_content": {
+            "calories": 400,
+            "protein": 25g,
+            "carbs": 50g,
+            "fiber": 8g,
+            "fat": 12g
+          }
+        }
+      }
+    },
+    "Saturday": {
+      "breakfast": {
+        "name": "Oatmeal with Berries and Nuts",
+        "description": "1/2 cup rolled oats cooked with 1 cup water, topped with 1/4 cup mixed berries and 1/8 cup chopped walnuts.",
+        "nutrient_content": {
+          "calories": 180,
+          "protein": 5g,
+          "carbs": 35g,
+          "fiber": 6g,
+          "fat": 6g
+        },
+        "alternative": {
+          "name": "Scrambled Eggs with Spinach and Tomato",
+          "description": "2 eggs scrambled with 1/2 cup chopped spinach and 1/4 cup chopped tomato.",
+          "nutrient_content": {
+            "calories": 150,
+            "protein": 12g,
+            "carbs": 3g,
+            "fiber": 1g,
+            "fat": 8g
+          }
+        }
+      },
+      "lunch": {
+        "name": "Lentil Soup with Whole Wheat Bread",
+        "description": "1 cup lentil soup, 2 slices whole wheat bread.",
+        "nutrient_content": {
+          "calories": 300,
+          "protein": 20g,
+          "carbs": 45g,
+          "fiber": 12g,
+          "fat": 5g
+        },
+        "alternative": {
+          "name": "Quinoa Salad with Roasted Vegetables",
+          "description": "1 cup cooked quinoa, 1/2 cup roasted vegetables (broccoli, carrots, peppers), 1/4 cup feta cheese.",
+          "nutrient_content": {
+            "calories": 350,
+            "protein": 15g,
+            "carbs": 50g,
+            "fiber": 8g,
+            "fat": 10g
+          }
+        }
+      },
+      "dinner": {
+        "name": "Chicken and Vegetable Stir-Fry with Brown Rice",
+        "description": "1 cup brown rice cooked, 4 oz chicken breast stir-fried with 1 cup broccoli florets, 1/2 cup sliced carrots, 1/4 cup chopped onion, and 1 tbsp soy sauce.",
+        "nutrient_content": {
+          "calories": 450,
+          "protein": 35g,
+          "carbs": 50g,
+          "fiber": 10g,
+          "fat": 10g
+        },
+        "alternative": {
+          "name": "Spaghetti Squash with Marinara Sauce and Meatballs",
+          "description": "1 cup cooked spaghetti squash, 1/2 cup marinara sauce, 2 small lean meatballs.",
+          "nutrient_content": {
+            "calories": 350,
+            "protein": 25g,
+            "carbs": 40g,
+            "fiber": 8g,
+            "fat": 10g
+          }
+        }
+      }
+    },
+    "Sunday": {
+      "breakfast": {
+        "name": "Greek Yogurt with Fruit and Granola",
+        "description": "1 cup Greek yogurt, 1/4 cup mixed berries, 1/4 cup granola.",
+        "nutrient_content": {
+          "calories": 250,
+          "protein": 20g,
+          "carbs": 30g,
+          "fiber": 5g,
+          "fat": 8g
+        },
+        "alternative": {
+          "name": "Whole Wheat Toast with Avocado and Egg",
+          "description": "2 slices whole wheat toast, 1/4 avocado mashed, 1 egg cooked to preference.",
+          "nutrient_content": {
+            "calories": 280,
+            "protein": 15g,
+            "carbs": 35g,
+            "fiber": 6g,
+            "fat": 12g
+          }
+        }
+      },
+      "lunch": {
+        "name": "Chicken Caesar Salad",
+        "description": "Mixed greens, 4 oz grilled chicken breast, 1/4 cup grated Parmesan cheese, 2 tbsp Caesar dressing.",
+        "nutrient_content": {
+          "calories": 350,
+          "protein": 30g,
+          "carbs": 10g,
+          "fiber": 3g,
+          "fat": 15g
+        },
+        "alternative": {
+          "name": "Turkey and Veggie Wrap",
+          "description": "Whole wheat tortilla, 4 oz turkey breast, 1/4 cup chopped vegetables (lettuce, tomato, cucumber), 1 tbsp hummus.",
+          "nutrient_content": {
+            "calories": 300,
+            "protein": 25g,
+            "carbs": 35g,
+            "fiber": 5g,
+            "fat": 8g
+          }
+        }
+      },
+      "dinner": {
+        "name": "Baked Salmon with Roasted Asparagus and Lemon",
+        "description": "4 oz baked salmon, 1/2 cup roasted asparagus, 1/4 lemon.",
+        "nutrient_content": {
+          "calories": 300,
+          "protein": 30g,
+          "carbs": 5g,
+          "fiber": 3g,
+          "fat": 15g
+        },
+        "alternative": {
+          "name": "Chicken Parmesan with Zucchini Noodles",
+          "description": "4 oz chicken breast breaded and baked, 1/4 cup marinara sauce, 1/4 cup mozzarella cheese, 1 cup zucchini noodles.",
+          "nutrient_content": {
+            "calories": 350,
+            "protein": 30g,
+            "carbs": 25g,
+            "fiber": 5g,
+            "fat": 12g
+          }
+        }
+      }
+    }
+  }
+}
+```
