@@ -21,7 +21,7 @@ This system aims to bridge recommendations across two domains—books and movies
 - **Custom Genre Mapping**: To connect books and movies, we categorized both into custom genre types that capture similar thematic elements across domains.
 - **Modeling Approach**: We used a **RoBERTa model** for text-based embedding of content and a **K-Nearest Neighbors (KNN)** approach to recommend items within these custom genres.
 - **FlexRead**: Users can view, filter, and interact with recommendations through the **FlexRead** webpage, which is designed to be responsive and user-friendly.
-- ![FlixRead]("[FlixRead.png](https://github.com/Suraj-singh048/Next_Gen_Recomendation_Systems/blob/main/FlixRead.png)")
+- ![FlixRead](FlixRead.png)
 
 ### 2. Generative AI-Based Personalized Recommendation System
 
