@@ -1,0 +1,22 @@
+day,meal_type,meal_name,description,calories,protein,carbohydrates,fiber,fat,sugar,is_alternative
+Monday,breakfast,Italian-Style Omelette with Vegetables,"An Italian-style omelette made with eggs, vegetables, and mozzarella cheese, served with whole-grain toast.",250,20,10,2,15,5,False
+Monday,lunch,Grilled Chicken Panini with Tomato and Basil,"A grilled chicken breast topped with tomato, basil, and mozzarella cheese on a whole-grain bread roll.",320,35,20,4,15,5,False
+Monday,dinner,Spaghetti Squash with Meatballs and Marinara Sauce,A baked spaghetti squash topped with homemade meatballs and marinara sauce.,400,30,30,5,15,10,False
+Tuesday,breakfast,Greek Yogurt with Berries and Granola,A bowl of Greek yogurt topped with mixed berries and whole-grain granola.,200,15,25,4,0,20,False
+Tuesday,lunch,Turkey and Avocado Wrap with Mixed Greens,"A whole-grain wrap filled with sliced turkey breast, avocado, mixed greens, and a low-fat spread.",350,30,25,5,15,10,False
+Tuesday,dinner,Baked Cod with Lemon and Herbs,A baked cod fillet seasoned with lemon juice and herbs.,240,25,0,0,10,0,True
+Wednesday,breakfast,Whole-Grain Pancakes with Fresh Fruits and Yogurt,Fluffy whole-grain pancakes topped with fresh fruits and a dollop of yogurt.,280,10,40,4,5,20,False
+Wednesday,lunch,Veggie and Bean Chili with Whole-Grain Crackers,"A hearty chili made with vegetables, beans, and whole-grain crackers.",400,20,40,10,15,10,False
+Wednesday,dinner,Shrimp and Vegetable Stir-Fry with Brown Rice,"A stir-fry made with shrimp, mixed vegetables, and brown rice.",320,25,30,5,10,10,False
+Thursday,breakfast,Egg and Spinach Omelette with Whole-Grain Toast,"An egg omelette made with spinach, eggs, and whole-grain toast.",220,15,10,2,10,5,False
+Thursday,lunch,Chicken and Vegetable Skewers with Quinoa,Grilled chicken breast and mixed vegetables served on a bed of quinoa.,380,35,30,5,10,10,False
+Thursday,dinner,Beef and Mushroom Stroganoff with Whole-Grain Egg Noodles,A beef and mushroom stroganoff made with whole-grain egg noodles.,420,30,35,5,20,10,True
+Friday,breakfast,Cottage Cheese with Fresh Fruits and Cinnamon,A bowl of cottage cheese topped with fresh fruits and a sprinkle of cinnamon.,200,20,10,2,0,15,False
+Friday,lunch,Grilled Chicken Breast with Roasted Vegetables and Brown Rice,A grilled chicken breast served with roasted vegetables and brown rice.,300,35,25,5,10,10,False
+Friday,dinner,Pan-Seared Salmon with Lemon and Herbs,A pan-seared salmon fillet seasoned with lemon juice and herbs.,240,25,0,0,15,0,False
+Saturday,breakfast,Whole-Grain Waffles with Fresh Berries and Yogurt,A crispy whole-grain waffle topped with fresh berries and a dollop of yogurt.,260,10,35,4,5,20,False
+Saturday,lunch,Turkey Meatball Sub with Marinara Sauce and Whole-Grain Bread,A turkey meatball sub made with marinara sauce and whole-grain bread.,400,30,35,5,20,15,False
+Saturday,dinner,Grilled Chicken Breast with Roasted Sweet Potatoes and Green Beans,A grilled chicken breast served with roasted sweet potatoes and green beans.,320,35,25,5,10,10,False
+Sunday,breakfast,Breakfast Burrito with Scrambled Eggs and Black Beans,"A breakfast burrito made with scrambled eggs, black beans, and whole-grain tortilla.",240,15,25,5,10,10,False
+Sunday,lunch,Chicken Caesar Salad with Whole-Grain Croutons,A chicken Caesar salad made with whole-grain croutons.,340,30,15,5,20,10,False
+Sunday,dinner,Beef and Mushroom Stroganoff with Egg Noodles,A beef and mushroom stroganoff made with egg noodles.,420,30,35,5,20,10,False
