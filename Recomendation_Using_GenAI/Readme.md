@@ -1,5 +1,3 @@
-# Writing the README content into a single file named README.md
-readme_content = """
 # Next Gen Recommendation Systems (Personalized Recommendation System using Gen AI)
 
 ## Overview
