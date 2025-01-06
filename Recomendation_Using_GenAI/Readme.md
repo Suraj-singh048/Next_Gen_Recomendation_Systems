@@ -1,86 +1,85 @@
-# Next Gen Recommendation Systems (Personalised Recommendation system using Gen AI)
+# Writing the README content into a single file named README.md
+readme_content = """
+# Next Gen Recommendation Systems (Personalized Recommendation System using Gen AI)
 
 ## Overview
-This repository contains a project focused on building a **Next-Gen Personalized Recommendation System** using **Generative AI** for meal planning based on individual preferences, dietary requirements, and location. The system leverages machine learning models to generate personalized meal plans and offers alternative meal options while ensuring nutritional balance.
+This project focuses on building a **Next-Gen Personalized Recommendation System** using **Generative AI** for meal planning. It considers individual preferences, dietary requirements, and location to create tailored meal plans. Leveraging cutting-edge machine learning models, the system generates weekly plans, suggests alternatives, and ensures nutritional balance.
 
-### Key Features:
-- **AI-Powered Meal Planning:** Generates weekly meal plans based on user preferences for location, cuisine, and dietary restrictions.
-- **Nutritional Information:** Provides detailed nutritional content for each meal, including calories, protein, carbohydrates, fat, fiber, and sugar per 100 grams.
-- **Alternatives for Each Meal:** Suggests alternative meal options to add variety while maintaining dietary and nutritional standards.
-- **No Repeated Meals:** Ensures no meal repeats within the same week.
-- **Configurable Model Parameters:** Supports various model configurations for custom results, including temperature, top_k, and top_p.
+### Key Features
+- **AI-Powered Meal Planning:** Personalized weekly meal plans based on location, cuisine, and dietary needs.
+- **Detailed Nutritional Info:** Each meal includes calories, protein, carbs, fats, fiber, and sugar per 100 grams.
+- **Alternative Suggestions:** Provides meal alternatives for variety while maintaining nutritional standards.
+- **No Repeats:** Ensures no meal is repeated in the same week.
+- **Customizable Parameters:** Configure temperature, top_k, and top_p for tailored outputs.
+- **Real-World Data Evaluation:** Validates the system's outputs against real-world data for continuous improvement.
+
+---
+
+## New Addition: Real-World Data Evaluation
+The project now includes real-world data analysis to evaluate system performance without prompt optimization. The **`Calculating_metrics.ipynb`** notebook provides insights into the system's accuracy and identifies areas for refinement.
+
+### Key Insights
+- **Performance Metrics:** Measures accuracy of generated meal plans compared to real-world data.
+- **Nutritional Validation:** Verifies the balance and adequacy of suggested meals.
+- **Gap Analysis:** Highlights discrepancies for targeted system enhancements.
+- **Benchmarking:** Tracks improvements over time.
+
+### Usage
+1. Open the `Calculating_metrics.ipynb` file.
+2. Run the notebook to evaluate system performance.
+3. Analyze the output for actionable insights.
+
+---
 
 ## Requirements
-To run the project, you'll need the following:
 - Python 3.7+
-- Gradio for the user interface
-- Google Generative AI (`google.generativeai` package)
-- Pandas for handling and displaying the meal plans
+- **Gradio**: For the user interface.
+- **Google Generative AI**: Powered by `google.generativeai`.
+- **Pandas**: For data handling.
+- **Jupyter Notebook**: For running metrics evaluations.
 
 ### Install Dependencies
 ```bash
-pip install gradio google-generativeai pandas
-```
+pip install gradio google-generativeai pandas notebook
+genai.configure(api_key="YOUR_API_KEY")
 
-## Project Setup
+generation_config = {
+    "max_output_tokens": 2048,
+    "temperature": 0.4,
+    "top_k": 40,
+    "top_p": 1,
+}
+response = generate_response(location="New York", cuisine="Italian", dietary_requirements="Diabetic Type 2")
 
-1. **API Key Setup:**
-   You need to configure the Google Generative AI API key in the `genai.configure` function:
-   ```python
-   genai.configure(api_key="YOUR_API_KEY")
-   ```
+├── app.py                  # Gradio interface and integration logic
+├── meal_plan.py            # Core functions for meal generation
+├── Calculating_metrics.ipynb # Notebook for real-world data evaluation
+├── requirements.txt        # Project dependencies
+├── sample_responses.json   # Example outputs from the system
+├── README.md               # This file
 
-2. **Model Configuration:**
-   The system uses Google Generative AI's `Gemini` models. It includes predefined settings for output tokens, temperature, and safety, but these can be adjusted to your needs:
-   ```python
-   generation_config = {
-       "max_output_tokens": 2048,
-       "temperature": 0.4,
-       "top_k": 40,
-       "top_p": 1,
-   }
-   ```
+python app.py
 
-3. **System Prompt:**
-   The default system prompt instructs the AI to generate meal plans based on the user’s location, cuisine preferences, dietary needs, and the day of the week.
+{
+  "location": "New York",
+  "cuisine": "Italian",
+  "dietary_requirements": "Diabetic Type 2"
+}
 
-4. **Generating Meal Plans:**
-   The `generate_response()` function handles the core logic of generating meal plans:
-   ```python
-   response = generate_response(location="New York", cuisine="Italian", dietary_requirements="Diabetic Type 2")
-   ```
-
-## File Structure
-
-- `app.py`: Contains the Gradio interface and model integration logic.
-- `meal_plan.py`: Core functions for meal generation and alternative suggestions.
-- `requirements.txt`: List of dependencies for the project.
-- `sample_responses.json`: Example outputs generated by the model.
-- `README.md`: This file.
-
-## Example Usage
-1. **Launch the Gradio Interface:**
-   Run the application and interact with it through a web interface.
-   ```bash
-   python app.py
-   ```
-
-2. **Generate Meal Plan:**
-   Provide your location, preferred cuisine, and dietary restrictions, and the system will generate a weekly meal plan with alternatives.
-
-3. **Example Output:**
-   A JSON response with meal plans for each day, including alternatives:
-   ```json
-   {
-     "weekly_meal_plan": {
-       "Monday": {
-         "breakfast": {
-           "name": "Oatmeal with Berries and Nuts",
-           "nutrient_content_per_100g": { "calories": 150, "protein": 5, "carbs": 25, "fiber": 5, "fat": 5 }
-         }
-       }
-     }
-   }
-   ```
-
+{
+  "weekly_meal_plan": {
+    "Monday": {
+      "breakfast": {
+        "name": "Oatmeal with Berries and Nuts",
+        "nutrient_content_per_100g": {
+          "calories": 150,
+          "protein": 5,
+          "carbs": 25,
+          "fiber": 5,
+          "fat": 5
+        }
+      }
+    }
+  }
+}
 
